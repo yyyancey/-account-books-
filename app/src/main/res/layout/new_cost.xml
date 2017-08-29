@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <EditText
+        android:id="@+id/et_cost_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="名称"/>
+
+    <EditText
+        android:id="@+id/et_cost_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="消费"
+        android:inputType="numberDecimal" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+
+</LinearLayout>
